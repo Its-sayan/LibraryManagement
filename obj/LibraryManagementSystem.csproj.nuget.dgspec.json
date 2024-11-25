@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
+    "C:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
   },
   "projects": {
-    "c:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
+    "C:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "projectName": "LibraryManagementSystem",
-        "projectPath": "c:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectPath": "C:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "packagesPath": "C:\\Users\\sayan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\sayan\\Desktop\\SOFTWERE & AI-ML\\programing\\WebDevolopment\\projects\\Project_1\\LibraryManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sayan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -59,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

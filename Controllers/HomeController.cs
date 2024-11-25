@@ -21,6 +21,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    // public IActionResult AdLogin()
+    // {
+       
+    // }
 
     public IActionResult Privacy()
     {
