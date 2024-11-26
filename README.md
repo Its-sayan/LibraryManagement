@@ -8,10 +8,6 @@ A Library Management System (LMS) built using ASP.NET Core MVC and SQL Server. T
 - [Installation](#installation)
 - [Usage](#usage)
 - [Database Design](#database-design)
-- [CI/CD Pipeline](#cicd-pipeline)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - User Management: Register, Login, Logout, Role-based access control.
@@ -33,3 +29,30 @@ A Library Management System (LMS) built using ASP.NET Core MVC and SQL Server. T
    ```bash
    git clone https://github.com/your-username/LibraryManagementSystem.git
    cd LibraryManagementSystem
+2. Install .NET Core SDK and Visual Studio Code.
+
+3. Set up SQL Server and create a database named LibraryManagementSystem.
+
+4. Run the following commands to scaffold the project and set up the database:
+   ```bash
+   dotnet restore
+   dotnet ef dbcontext scaffold "Server=your_server_name;Database=LibraryManagementSystem;Trusted_Connection=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+## Usage
+1. Run the application:
+   ```bash
+   dotnet run
+2. Open a browser and navigate to http://localhost:5000.
+3. Use the system to manage library resources and users.
+
+## Database Design
+- The database consists of the following tables:
+
+ - Books: Contains book details such as title, author, ISBN, category, published date, and copies available.
+
+ - Members: Contains member details such as name, email, address, membership date, and status.
+
+ - Transactions: Tracks book issues and returns, including issue date, return date, and fines.
+
+ - Librarians: Contains librarian details such as name, email, role, and date joined.
